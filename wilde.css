@@ -1,0 +1,35 @@
+.speech{
+ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 15px;
+color: black;
+}
+ 
+.stage-direction{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color:rgba(95, 158, 160, 0.288);
+}
+.stage-direction:hover{
+    background-color: rgba(165, 42, 42, 0.404);
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color:darkcyan;
+}
+
+.PRINCE_PETRO{
+    color:cornflowerblue;
+}
+.BARON_RAFF{
+    color:darkblue;
+}
+.MARQ_DE_POIV{
+    color: darkorchid;
+}
+.GEN_KOTEMK{
+    color: darkred;
+}
+.COUNT_R{
+    color: deeppink;
+}
