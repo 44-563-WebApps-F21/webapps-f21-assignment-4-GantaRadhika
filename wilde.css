@@ -33,3 +33,64 @@ color: black;
 .COUNT_R{
     color: deeppink;
 }
+table,th,td{
+    border: 2px dashed gray;    
+}
+table{
+    margin: 15px;
+    overflow: auto;
+    width: 70%;
+   border-collapse: collapse; 
+   height: 50px;
+}
+ 
+th{
+    background-color: rgba(104, 76, 204, 0.678);
+    color: rgb(255, 0, 0);
+}
+td{
+    padding: 8px; text-align: left;
+}
+th{
+    padding: 12px; text-align: center;
+}
+tr:hover{
+background-color:lavender;
+}
+tr:nth-child(even){
+    background-color: lightgoldenrodyellow ;
+}
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;border: 1px solid indigo; background-color:lightblue;
+  }
+  
+  li.navbar-horizontal {
+    float: left;
+  }
+  
+  li a.navbar-horizontal {
+    display: block;
+    color: rgb(238, 20, 20);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: lightcoral;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+
+.name:hover{
+    color: darkgray;
+   box-shadow: 10px 10px 10px 5px gray;
+   border: 3px double burlywood;
+}
