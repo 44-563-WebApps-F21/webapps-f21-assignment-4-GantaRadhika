@@ -17,7 +17,11 @@ color: black;
     font-size: 14px;
     color:darkcyan;
 }
-
+.name:hover{
+    color: darkgray;
+   box-shadow: 8px 8px 8px 6px rgb(192, 96, 96);
+   border: 4px double rgb(218, 141, 40);
+}
 .PRINCE_PETRO{
     color:cornflowerblue;
 }
