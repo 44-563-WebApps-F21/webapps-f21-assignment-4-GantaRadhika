@@ -64,37 +64,50 @@ background-color:lavender;
 tr:nth-child(even){
     background-color: lightgoldenrodyellow ;
 }
+
 ul.navbar-horizontal {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;border: 1px solid indigo; background-color:lightblue;
+    overflow: hidden;
   }
   
   li.navbar-horizontal {
-    float: left;
+    display: inline;
+    
   }
-  
-  li a.navbar-horizontal {
-    display: block;
-    color: rgb(238, 20, 20);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  li.navbar-horizontal a {
+    color: aliceblue;
+    padding: 8px;
+    background-color: #e23030;
   }
-  
-  li a:hover:not(.active) {
-    background-color: lightcoral;
+  .active {
+    background-color:blue;
   }
-  
-  li a.active {
-    color: white;
-    background-color: #04AA6D;
-  }
-
-
 .name:hover{
     color: darkgray;
    box-shadow: 10px 10px 10px 5px gray;
    border: 3px double burlywood;
 }
+ul.navbar-horizontal 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li 
+{
+    float:left; /* line up horizontally */
+    color:#000;
+    background-color:purple
+}
+ul.navbar-horizontal a 
+{
+    color:yellow;
+    display:block;
+    padding:8px;
+}ul.navbar-horizontal a:hover
+ { 
+      background-color: #555;
+      color:white;
+    }
